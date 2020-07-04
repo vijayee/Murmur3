@@ -19,7 +19,7 @@ class iso _TestMurmur32 is UnitTest
       hash = Murmur32.hash("murmur".array())?
       t.assert_true(hash == 1945310157)
       hash = Murmur32.hash("veni, vidi, vici".array())?
-      t.assert_true(hash == 1945310157)
+      t.assert_true(hash == 2244721095)
       t.log(hash.string())
     else
       t.fail("Error during hashing")

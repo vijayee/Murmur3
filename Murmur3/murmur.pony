@@ -33,7 +33,7 @@ primitive Murmur32
 
     let remainder: U32 = (data.size() % 4).u32()
     var k : U32 = 0
-    if remainder = 3 then
+    if remainder == 3 then
       k = k xor (data((blockLen * 4) + 2)?.u32() << 16)
     end
     if remainder >= 2 then

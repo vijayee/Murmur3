@@ -1,0 +1,13 @@
+{
+  "packages": [
+    "Murmur3"
+  ],
+  "info": {
+    "description": "Pony Implementation of Murmur3 Algorithm",
+    "homepage": "https://github.com/vijayee/Murmur3",
+    "license": "GPLv3",
+    "version": "0.0.1",
+    "name": "Murmur3"
+  },
+  "deps": []
+}
